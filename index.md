@@ -1,10 +1,11 @@
 ---
 layout: default
 ---
-
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
 [Link to another page](another-page).
+
+**Wheat Genetics and Genomics Lab**
+
+
 
 There should be whitespace between paragraphs.
 
@@ -12,7 +13,9 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 # [](#header-1)Header 1
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+Dept. Of Biology and Microbiology, 
+South Dakota State University, 
+Brookings, SD 57006, USA, 
 
 ## [](#header-2)Header 2
 

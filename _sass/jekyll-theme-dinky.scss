@@ -26,7 +26,7 @@ time, mark, audio, video {
 /* Base text styles */
 
 body {
-  padding:10px 50px 0 0;
+  padding:0px 200px 0 0;
   font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	color: #232323;
@@ -76,8 +76,8 @@ h4, h5, h6 {
 }
 
 a {
-  color:#C30000;
-  font-weight:200;
+  color:#0033A0/*#C30000*/;
+  font-weight:500;
   text-decoration:none;
 }
 
@@ -86,7 +86,7 @@ a:hover {
 }
 
 a small {
-	font-size: 12px;
+	font-size: 16px;
 }
 
 em {
@@ -215,20 +215,20 @@ td {
 /* Header */
 
 header {
-	background-color: #171717;
-	color: #FDFDFB;
-  width:170px;
+	background-color: #FFD700 /* #171717 */;
+	color: #fff/* #FDFDFB */;
+  width:220px;
   float:left;
   position:fixed;
-	border: 1px solid #000;
-	-webkit-border-top-right-radius: 4px;
+	/* border: 1px solid #000; */
+	/*-webkit-border-top-right-radius: 4px;
 	-webkit-border-bottom-right-radius: 4px;
 	-moz-border-radius-topright: 4px;
-	-moz-border-radius-bottomright: 4px;
-	border-top-right-radius: 4px;
-	border-bottom-right-radius: 4px;
-	padding: 34px 25px 22px 50px;
-	margin: 30px 25px 0 0;
+	-moz-border-radius-bottomright: 4px; */
+	/* border-top-right-radius: 4px; */
+	/*border-bottom-right-radius: 4px;*/
+	padding: 34px 30px 28px 50px;
+	margin: 0px 25px 0 0;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -239,15 +239,17 @@ p.header {
 h1.header {
 	font-family: Arvo, sans-serif;
 	font-size: 30px;
-	font-weight: 300;
+	font-weight: 600;
 	line-height: 1.3em;
 	border-bottom: none;
 	margin-top: 0;
 }
+h1.header {
+	color: #0033A0
+}
 
-
-h1.header, a.header, a.name, header a{
-	color: #fff;
+/*h1.header, */a.header, a.name, header a{
+	color: /*#0033A0*/ #fff;
 }
 
 a.header {
@@ -271,30 +273,31 @@ header li {
 	line-height: 1em;
 	padding: 6px 6px 6px 7px;
 
-	background: #AF0011;
-	background: -moz-linear-gradient(top, #AF0011 0%, #820011 100%);
+	background: #0033A0/*#AF0011*/;
+	/*background: -moz-linear-gradient(top, #AF0011 0%, #820011 100%);#001182*/
+	background: -moz-linear-gradient(top, #0033A0 0%, #001182 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
-  background: -webkit-linear-gradient(top, #AF0011 0%,#820011 100%);
-  background: -o-linear-gradient(top, #AF0011 0%,#820011 100%);
-  background: -ms-linear-gradient(top, #AF0011 0%,#820011 100%);
-  background: linear-gradient(top, #AF0011 0%,#820011 100%);
+  background: -webkit-linear-gradient(top, #0033A0 0%,#001182 100%);
+  background: -o-linear-gradient(top, #0033A0 0%,#001182 100%);
+  background: -ms-linear-gradient(top, #0033A0 0%,#001182 100%);
+  background: linear-gradient(top, #0033A0 0%,#001182 100%);
 
 	border-radius:4px;
-  border:1px solid #0D0D0D;
+  /*border:1px solid #0D0D0D;*/
 
-	-webkit-box-shadow: inset 0px 1px 1px 0 rgba(233,2,38, 1);
-	box-shadow: inset 0px 1px 1px 0 rgba(233,2,38, 1);
+	-webkit-box-shadow: inset 0px 1px 1px 0 rgba(2,87,233, 1);
+	box-shadow: inset 0px 1px 1px 0 rgba(2,87,233, 1);
 
 }
 
 header li:hover {
-	background: #C3001D;
-	background: -moz-linear-gradient(top, #C3001D 0%, #950119 100%);
+	background: #0257E9/*#C3001D*/;
+	background: -moz-linear-gradient(top, #0257E9/*#C3001D*/ 0%, #CBD3EB/*#950119*/ 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
-  background: -webkit-linear-gradient(top, #C3001D 0%,#950119 100%);
-  background: -o-linear-gradient(top, #C3001D 0%,#950119 100%);
-  background: -ms-linear-gradient(top, #C3001D 0%,#950119 100%);
-  background: linear-gradient(top, #C3001D 0%,#950119 100%);
+  background: -webkit-linear-gradient(top, #0257E9/*#C3001D*/ 0%,#CBD3EB/*#950119*/  100%);
+  background: -o-linear-gradient(top, #0257E9/*#C3001D*/ 0%,#CBD3EB/*#950119*/  100%);
+  background: -ms-linear-gradient(top, #0257E9/*#C3001D*/ 0%,#CBD3EB/*#950119*/  100%);
+  background: linear-gradient(top, #0257E9/*#C3001D*/ 0%,#CBD3EB/*#950119*/  100%);
 }
 
 a.buttons {
@@ -328,10 +331,10 @@ section {
 /* Footer */
 
 footer {
-  width:170px;
-  float:left;
+  width:220px;
+  float:center;
   position:fixed;
-  bottom:10px;
+  bottom:0px;
 	padding-left: 50px;
 }
 
