@@ -1,4 +1,4 @@
-# fraser-lab.github.io
+# wheatgenomics-sdsu.github.io
 ====================
 
 Technologies this website uses:  
