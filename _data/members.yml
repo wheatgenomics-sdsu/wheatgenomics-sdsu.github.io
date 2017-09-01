@@ -1,0 +1,41 @@
+- name: Wanlong Li
+  image: /static/img/members/Li.jpg
+  altimage: /static/img/members/photobomb/Li1.jpg
+  position: Principal Investigator
+  email: wanlong.li@sdstate.edu
+  #scholar: 
+  #twitter: 
+  #orcid: 
+  description: 'Wanlong Li did his undergraduate and graduate studies at Northwestern A&F University , China. He recieved his doctoral degree from Nanjing Agriccultural University, China where he later worked as a assistant and associate preofessor. He was a visiting professor in at Kansas state university, Manhattan, KS and later became a Research Assistant professor ay KSU. He joined SDState in 2009 as Assistant professor and later promoted to associated Professor in 2012.
+  
+  
+  
+  
+  
+    Teaching: Dr. Li teaches a Special topic course on Epigentics in Spring of odd years.'
+
+- name: Lei hua, Ph.D.
+  image: /static/img/members/lh.jpg
+  #altimage: /static/img/members/photobomb/lh1.jpg
+  position: Research Associate
+  email: lei.hua@sdstate.edu
+  #scholar: 5kUDcJ0AAAAJ
+  description: "under construction"
+
+- name: Ghana S. Challa
+  image: /static/img/members/gsc.jpg
+  #altimage: /static/img/members/photobomb/gsc1.jpg
+  position: Ph. D. Student
+  email: ghana.challa@jacks.sdstate.edu
+  scholar: ZqNR24EAAAAJ
+  #twitter: "DanielKeedy"
+  #orcid: "orcid.org/0000-0002-9184-7586"
+  description: "Ghana did his undergraduate and MS from Andhra University, India. He worked as a intern at ICRISAT, India and worked on chickpea tranformation. He was a junior research fellow at National institute for plant genome resesarch (NIPGR), India and worked on auxin siganling, functional genomics and comparative genomics in rice. He is currently a Ph.D. candidate in Li Lab. He is involved in analyzing high-throughput transcriptome and genome sequencing data for mutiple projects."
+
+- name: Dilkaran Singh
+  image: /static/img/members/ds.jpg
+  #altimage: /static/img/members/photobomb/ds1.jpg
+  position: Graduate Student
+  email: singh@jacks
+  #scholar: 
+  description: "Under construction"

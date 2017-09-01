@@ -1,0 +1,13 @@
+name: "Li Lab @SDState"
+description: "Li Lab | Wheat Genetic and Genomics."
+
+url: "http://https://wheatgenomicslab-sdsu.github.io"
+
+paginate: 5
+gems: [jekyll-paginate]
+paginate_path: "news/page:num"
+
+permalink: pretty
+markdown: kramdown
+kramdown: 
+  parse_block_html: true
