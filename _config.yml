@@ -1,7 +1,7 @@
 name: "Li Lab @SDState"
 description: "Li Lab | Wheat Genetic and Genomics."
 
-url: "http://https://wheatgenomicslab-sdsu.github.io"
+url: "https://wheatgenomics-sdsu.github.io"
 
 paginate: 5
 gems: [jekyll-paginate]
