@@ -4,7 +4,7 @@ layout: publications
 group: Publications
 ---
 
-#Publications:
+# Publications:
 
 * Li W, Yang B. 2017. **Translational genomics of grain size regulation in wheat.** Theor Appl Genet. 2017 Aug 1. doi: 10.1007/s00122-017-2953-x.
 
