@@ -46,7 +46,7 @@ group: Research
 
 
 
-### _speciation of diploid and polyploid wheat and relative species and role of chromosome rearrangements_
+### _Speciation of diploid and polyploid wheat and relative species and role of chromosome rearrangements_
 
 
 
