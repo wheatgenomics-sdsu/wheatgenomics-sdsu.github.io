@@ -15,7 +15,7 @@ group: Contact
   Associate Professor  <br>
   Department of Biology and Microbiology  <br>
   Department of Agronomy, Horticulture and Plant Science  <br>
-  email: [wanlong.li@sdstate.edu](emailto:wanlong.li@sdstate.edu) <br>
+  Email: wanlong.li@sdstate.edu <br>
   tel: 605-688-5743
 
 </div>
