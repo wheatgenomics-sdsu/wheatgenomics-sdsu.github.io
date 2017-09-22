@@ -29,9 +29,9 @@ group: Members
           <a href= "http://twitter.com/{{person.twitter}}"> @{{person.twitter}} </a> <br>
         {% endif %}
     </div>
-    <div class="col-sm-8">
+   <!-- <div class="col-sm-8">
         <p class="text-justify">{{person.description | markdownify}}</p>
-    </div>
+    </div> -->
 </div>
 
 {% endfor %}
@@ -41,7 +41,7 @@ group: Members
 <hr>
 <div id = "{{person.name}}" class="row" style="padding-top: 60px; margin-top: -60px;">
     <div class="col-sm-4">
-        <img class="img-responsive" src="{{person.image}}" <br>
+        <img class="img-responsive" src="{{person.image}}"><br>
         <strong>{{person.name}}</strong> <br>
         {{person.position}} <br>
         {{person.current_position}} <br> 
