@@ -1,6 +1,6 @@
 - name: Wanlong Li
   image: /static/img/members/Li.jpg
-  altimage: /static/img/members/photobomb/Li1.jpg
+  #altimage: /static/img/members/photobomb/Li1.jpg
   position: Principal Investigator
   email: wanlong.li@sdstate.edu
   #scholar: 
