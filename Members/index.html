@@ -15,7 +15,7 @@ group: Members
         <strong>{{person.name}}</strong> <br>
         {{person.position}} <br>
         <em>{{person.email}}</em> <br>
-       <!--  {% if person.website %}
+        {% if person.website %}
           <a href= "{{person.website}}">{{person.website}}</a> <br>
         {% endif %}
         {% if person.orcid %}
@@ -30,17 +30,8 @@ group: Members
         {% endif %}
     </div>
     <div class="col-sm-8">
-        <p class="text-justify">{{person.description | markdownify}}</p> -->
+        <p class="text-justify">{{person.description | markdownify}}</p>
     </div>
 </div>
-<h1>Li Lab Members</h1>
-<!--
-{% for person in site.data.alumini %}
-<hr>
-<div id = "{{person.name}}" class="row" style="padding-top: 60px; margin-top: -60px;">
-    <div class="col-sm-4">
-        <img class="img-responsive" src="{{person.image}}" <br>
-        <strong>{{person.name}}</strong> <br>
-        {{person.position}} <br>
-        {{person.current_position}} <br> 
-{% endfor %}-->
+
+{% endfor %}
