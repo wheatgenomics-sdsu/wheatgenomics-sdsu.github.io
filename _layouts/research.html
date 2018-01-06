@@ -2,8 +2,15 @@
 
 <img class="img-responsive center-block" src="/static/img/lilab1.jpg" >
 <div class="row-fluid">
+<div class="col-lg-9">
         {{ content }}
-    </div>
+</div>
+</div>
 
+<div class="col-lg-3">
+<div class="jumbotron">
+        {% include research_sidebar.html %}
+</div>
+</div>
 
 {% include footer.html %}
