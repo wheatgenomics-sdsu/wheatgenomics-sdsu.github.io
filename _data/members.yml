@@ -10,15 +10,15 @@
   email: lei.hua@sdstate.edu
   description:
 
-- name: Ghana S. Challa
-  image: /static/img/members/gsc.jpg
-  position: Ph. D. Student
-  email: ghana.challa@jacks.sdstate.edu
-  scholar: 
-  description: 
-
 - name: Dilkaran Singh
   image: /static/img/members/ds.jpg
   position: Graduate Student
   email: dilkaran.singh@sdstate.edu
+  description: 
+  
+- name: Ajay Gupta
+  image: /static/img/members/ag.jpg
+  position: Ph. D. Student
+  email: ajay.gupta@jacks.sdstate.edu
+  scholar: 
   description: 
