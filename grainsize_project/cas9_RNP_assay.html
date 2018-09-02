@@ -7,14 +7,15 @@ layout: pcr_cas9_protocol
 <hr>
 <h2>Purification of Cas9 protein</h2>
 <p>
-Day 1: Cell transformation
+<ol>
+<h3>Day 1: Cell transformation</h3>
 1. Add ~200 ng of plasmid DNA (pMJ806) to 50 μl of freshly thawed BL21 competent cells and incubate on ice for 15 min.
 2.  Heat-shock cells by incubation at 42 °C for 45 s, then place cells on ice for further 3 min. 
 3. Add 500 μl of LB medium to the cells and incubate the culture at 37 °C for 1 h in a shaking incubator. 
 4. Plate 100 μl of culture out on LB agar containing 50 μg ml-1 kanamycin. 
 5. Incubate plates overnight at 37 °C.
-
-Day 2: Culture growth and induction
+<h3>Day 2: Culture growth and induction</h3>
+<ol>
 6. Pick one colony from the agar plate and inoculate 50 ml LB medium containing 50 μg ml-1 kanamycin. 
 7. Incubate the preculture at 37 °C in a shaking incubator (250 rpm) overnight.
 8. Use 10 ml of the preculture to inoculate 1 L prewarmed LB medium supplemented with 50 μg ml-1 kanamycin in a 2.8L flask. 
@@ -22,8 +23,7 @@ Day 2: Culture growth and induction
 10. Reduce the temperature to 18 °C at an OD of ~ 0.8 and continue shaking for additional 30 min. 
 11. Add 150 μl 1 M isopropyl-β-D-1-thiogalactopyranoside (IPTG) to each flask (200 μM final concentration) for induction of protein expression. 
 12. Continue shaking at 18 °C overnight for another 12-16 h.
-
-Day 3: Cas9 purification by using TALON Spin Columns
+<h3>Day 3: Cas9 purification by using TALON Spin Columns</h3>
 13. Harvest cells by centrifugation for 15 min at 3500 rpm (~2700 x g) in a swingbucket rotor in 1 L bottles. 
 14. Decant the supernatant and resuspend the cell pellets using ~20 ml ice-chilled lysis buffer (20 mM Tris-Cl, pH 8.0, 250 mM NaCl, 5 mM imidazole, pH 8.0, 1 mM phenylmethylsulfonyl fluoride) per cell pellet from 1 L culture. 
 15. Resuspended cell pellets can either be used directly for further purification or flash frozen in liquid nitrogen and stored at -80 °C for several months without loss of Cas9 enzymatic activity.
@@ -34,16 +34,16 @@ Day 3: Cas9 purification by using TALON Spin Columns
 
 18. Wash the columns with 2 ml wash buffer (20 mM Tris-Cl, pH 8.0, 250 mM NaCl, 10 mM imidazole, pH 8.0) for three times. Elute with 400 μl elution buffer (20 mM Tris-Cl, pH 8.0, 250 mM NaCl, 250 mM imidazole, pH 8.0) three times and collect in 2 ml microtubes. 
 19. Dialyze the sample in dialysis tubing in 1 L dialysis buffer (20 mM HEPESKOH, pH 7.5, 150 mM KCl, 10 % (v/v) glycerol, 1 mM dithiothreitol (DTT), 1 mM EDTA) at 4 °C overnight. Dialysis buffer (without DTT and glycerol) can be prepared as a 10 x stock, but DTT should be added immediately prior to use. Measuring the Cas9 protein concentration by using NanoDrop 2000 spectrophotometer.
-
-
-Preparation of guide RNAs
-
-Construction of transcription vectors
+</ol>
+<h2>Preparation of guide RNAs</h2>
+<h3>Construction of transcription vectors</h3>
+   <ol>
 1. Synthesize a gBlock containing T7 promoter, guide RNA scaffold, and two BsaI cloning sites in between, was synthesized. 
 2. Insert the gBlock into pENTR4 between NcoI and XbaI through Gibson assembly replacing the ccdB cassette, resulting in pT7-sgRNA
 3. Synthesize two complementary oligonucleotides for the spacer sequence of sgRNAs, anneal them form a double stranded DNA fragment, and then cloned into BsaI sites in pT7-sgRNA.
-
-In vitro transcription and purification
+</ol>
+<h3>In vitro transcription and purification</h3>
+      <ol>
 1. Linearize pT7-sgRNA derived gRNA-specific construct using restriction enzyme site NcoI, 
 2. Dephosphorylate the digestion with Shrimp Alkaline Phosphatase (rSAP) (New England Biolabs, Ipswich, MA), 
 3. Purified with DNA Clean and Concentrator Kit (Zymo Research, Irvine, CA). 
@@ -59,10 +59,9 @@ Total				        	30 µl
 7. Add 30 µl nuclease-free water to each 20 µl reaction, followed by 2 µl of DNase I (RNase-free), mix and incubate for 15 minutes at 37 °C. (This step is to remove template DNA)
 8. Purify the products with RNA Clean and Concentrator (Zymo Research)
 9. Measure the concentration by using NanoDrop 2000 spectrophotometer. 
-
-
-PCR/RNP cleavage Assays
-
+                                               </ol>
+<h2>PCR/RNP cleavage Assays</h2>
+      <ol>
 1. Mix 1μg of sgRNA and 1μg of Cas9 protein in 6 µl 1x Cas9 reaction buffer.
 2. Incubated at room temperature for 15 min to form ribonucleoprotein (RNP) complex. 
 3. Set up RNP reaction as follows.
@@ -74,3 +73,4 @@ Total					10 µl
 4)	Incubate the reaction at 37 °C for 3 hours.
 5)	Inactivate the reaction at 65 °C for 15 minutes. 
 6)	Analyze the digestion immediately with electrophoresis in 2% agarose gel.</p>
+</ol>
